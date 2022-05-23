@@ -1,0 +1,356 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 6============*/
+
+/* borrar span*/
+
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:100px;
+	margin-bottom:30px;
+}
+
+div#myProfile{
+	
+	box-sizing:border-box;
+	background:rgba(21,133,221,.5);
+	width:40%;
+	height:570px;
+	margin-left:50px;
+	display:inline-block;
+	border-radius:20px;
+	float:left;
+	border:2px solid #fff;
+}
+fieldset#Personal{
+	margin:10px;
+}
+fieldset#Pictures{
+	margin:10px;
+}
+div#myView{
+	
+	box-sizing:border-box;
+	background:rgba(21,133,221,.5);
+	width:50%;
+	height:570px;
+	margin-left:30px;
+	display:inline-block;
+	border-radius:20px;
+	border:2px solid #fff;
+}
+legend {
+	color:#fff004;
+	font-family:georgia;
+	font-size:14px;
+}
+.myForm input[type="text"],
+.myForm input[type="password"],
+.myForm input[type="email"],
+.myForm input[type="select"] {
+	outline:none;
+	background:rgba(255,255,255,.1);
+	display:inline-block;
+	width:70%;
+	padding:10px 15px;
+	color:#fff;
+	border:none;
+	border-radius:2px;
+	border-bottom:2px solid #fff;
+	font-family:georgia;
+	font-size:14px;
+	font-weight:normal;
+	margin:0 10px 20px 0;
+	transition: all .5s ease;
+}
+.myForm input[type="select"] {
+	width:40%;
+}
+.myForm input[type="file"] {
+	outline:none;
+	background:rgba(255,255,255,.1);
+	display:inline-block;
+	width:80%;
+	padding:10px 10px;
+	color:#fff;
+	border:none;
+	border-radius:2px;
+	border-bottom:2px solid #fff;
+	font-family:georgia;
+	font-size:12px;
+	font-weight:normal;
+	margin:0 10px 10px 0;
+	transition: all .5s ease;
+}
+.myLabel{
+	display:inline-block;
+	width:100px;
+	margin-left:20px;
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	
+}
+.myLabel2{
+	display:inline-block;
+	width:80px;
+	margin-left:10px;
+	color:#fff;
+	font-size:16px;
+	font-weight:600;
+	
+}
+.myTittle {
+	margin:10px 0 15px 0;
+	font-size:20px;
+	font-weight:800;
+	line-height:1;
+	color:#fff;
+	text-align:center;
+}
+
+label#myTeamLabel{
+	width:200px;
+}
+
+.myForm input[type="text"]:-moz-placeholder,
+.myForm input[type="password"]:-moz-placeholder,
+.myForm input[type="email"]:-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-moz-placeholder,
+.myForm input[type="password"]::-moz-placeholder,
+.myForm input[type="email"]::-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-webkit-input-placeholder,
+.myForm input[type="password"]::-webkit-input-placeholder,
+.myForm input[type="email"]::-webkit-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:-ms-input-placeholder,
+.myForm input[type="password"]:-ms-input-placeholder,
+.myForm input[type="email"]:-ms-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:focus,
+.myForm input[type="password"]:focus,
+.myForm input[type="email"]:focus {
+
+	border-bottom:2px solid #fc8a06;
+	transition: all .5s ease;
+}
+
+.myForm input[type="submit"] {
+	background:#fff;
+	color:#1b1b70;
+	border:none;
+	width:35%;
+	padding:10px;
+	font-weight:800;
+	font-family:georgia;
+	font-size:16px;
+	letter-spacing:1px;
+	cursor:pointer;	
+	float:rigth;
+	margin-bottom:20px;
+	margin-top:10px;
+	display:block;
+	margin-left:180px;
+}
+.myForm input[type="submit"]:hover {
+	background:rgba(27,27,112,.7);
+	color:#fff;
+	transition: all .5s ease;
+}
+
+.tooltip {
+	width:250px;
+	color: #fc8a06;
+	font-weight:600;
+	height:20px;
+	margin-right:30px;
+	display:inline-block;
+	text-align:center;
+	font-size:16px;
+	position:relative;
+	cursor:pointer;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+div#myContainer {
+	background:#fff;
+	width:40%;
+	height:500px;
+	margin-left:20px;
+	border-radius:20px;
+	display:inline-block;
+}
+
+img#Body {
+	width:100%;
+	Height:375px;
+	border-radius:20px;
+}
+
+div#Categoria {
+	display:inline-block;
+	height:100px;
+	width:49%;
+}
+div#Equipo {
+	display:inline-block;
+	height:100px;
+	width:49%;
+	float:right;
+}
+
+.Bott {
+	border-radius:20px;
+}
+
+div#Estadistica {
+	
+	margin-right:15px;
+	/*background:#fff;*/
+	width:53%;
+	display:inline-block;
+	height:500px;
+	float:right;
+	}
+
+div#Head{
+	border-bottom:2px solid #fff004;
+}
+div#Num,
+div#Nom  {
+	display:inline-block;
+}
+
+div#Nom  {
+	margin-left:5px;
+}
+
+.Tittlef {
+	font-size:30px;
+	color:#fff;
+	font-family:Verdana;
+	
+}
+
+img#Pic-Casco {
+	width:100px;
+}
+
+div#TableBox,
+div#CascoBox  {
+	display:inline-block;
+}
+div#CascoBox  {
+	margin:auto;
+}
+
+.Table-Tittle {
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #fff;
+	color:#fff;
+	font-size:18px;
+	font-family:Arial;
+	Width:200px;
+}
+
+.PreKRT,
+.PostKRT-Tanda,
+.PostKRT-GP,
+.PostKRT-Gen {
+	color:#fff;
+	font-size:14px;
+	font-family:Arial;
+	text-align:left;
+	border:1px;
+}
+table tr td {
+  padding:0;  
+}
+table tr th:nth-child(1) {
+  width:150px;
+}
+
+table tr th:nth-child(2),
+table tr th:nth-child(3) {
+  width:60px;
+  text-align:center;
+}
+
+table tr td:nth-child(1) {
+  width:60px;
+  text-align:center;
+}
+
+table tr td:nth-child(2),
+table tr td:nth-child(3) {
+  width:100px;
+  text-align:center;
+}
+/*table, th, td {
+  border: 1px solid black;
+}*/
+
+div#Last{
+	margin-top:15px;
+}
+
+.PostKRT-Gen {
+	font-size:16px;
+}

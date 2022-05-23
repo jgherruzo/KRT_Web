@@ -1,0 +1,30 @@
+/*Este archivo da formato a la cabecera*/
+
+/*==========Version 0============*/
+div#myHeader {
+	width:100%;
+	height:30px;
+}
+div#Login {
+	margin:5px 5px;
+	box-sizing:border-box;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	height:40px;
+	text-align:right;
+	width:15%;
+	color: #fff;
+	float:rigth;
+	display:inline-block;
+	position:relative;
+	left:80%;
+	/*border-bottom: 5px solid #fff;*/
+}
+div#Login a {
+	text-decoration:none;
+	color: #fff004;
+}
+div#Login a:hover {
+	color: #fc8a06;
+	transition: all .5s ease;
+}

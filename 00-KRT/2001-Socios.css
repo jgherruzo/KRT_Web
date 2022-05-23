@@ -1,0 +1,100 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	margin-bottom:130px;
+}
+div#Texto {
+	
+	box-sizing:border-box;
+	/*background:rgba(21,133,221,.7);*/
+	width:66%;
+	margin-right:20px;
+	display:inline-block;
+	border-radius:15px;
+	float:right;
+	text-align:center;
+	margin-bottom:130px;
+}
+div#Biblioteca {
+	box-sizing:border-box;
+	/*background:rgba(21,133,221,.7);*/
+	background:rgba(27,27,112,.7);
+	width:27%;
+	height:580px;
+	margin-left:2.5%;
+	display:inline-block;
+	border-radius:15px;
+	border:5px solid #fc8a06;
+	text-align:center;
+}
+select{
+	width:100px;
+}
+h1#NewsTittle{
+	color:#1585dd;
+	font-family:verdana;
+}
+
+h1#SociosTittle{
+	color:#fc8a06;
+	font-family:verdana;
+}
+.mySocios{
+	margin:auto;
+	margin-top:20px;
+	color:#fff;
+	font-size:20px;
+	border: 3px double #fff004;
+	border-collapse: separate;
+	border-radius:5px;
+	font-family:georgia;
+}
+
+table tr td:nth-child(2) {
+  width:400px;
+  text-align:left;
+  border-bottom:1px double #fff004;
+  padding:5px;
+}
+
+table tr td:nth-child(1) {
+  width:50px;
+}
+
+table tr td:nth-child(3) {
+  width:100px;
+  text-align:center;
+	border-left:1px double #fff004;
+}
+.myDocs{
+	width:75%;
+	margin-top:30px;
+	margin-left:35px;
+	color:#fff;
+	list-style-type: circle;
+	font-family:georgia;
+	
+}
+
+.myDocs li{
+	border-bottom:1px solid #fc8a06;
+	font-size:20px;
+	margin-top:5px;
+	text-align:left;
+	
+}
+
+.myDocs a{
+	text-decoration:none;
+	color: #fff;
+	font-size:18px;
+	
+}

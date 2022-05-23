@@ -1,0 +1,52 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+div#Texto a {
+	text-decoration:none;
+	color:#fff;
+}
+div#Texto a:hover {
+	color: #fff004;
+	transition: all .5s ease;
+}
+
+div#Core {
+	box-sizing:border-box;
+	border:5px solid #fff;
+	max-width:95%;
+	/*background:#fff;*/
+	/*background:rgba(27,27,112,.5);*/
+	margin:auto;
+	margin-top:110px;
+	border-radius:25px;
+	margin-bottom:130px;
+	padding-bottom: 1px;
+	height:auto;
+	overflow:hidden;
+}
+h1{
+	color:#fff004;
+	text-align:center;
+	font-size:4em;
+	font-family:verdana;
+}
+div#Icon {
+	margin-left:10px;
+	margin-top:10px;
+	width:25%;
+	height:400px;
+	display:inline-block;
+}
+div#Texto {
+	box-sizing:border-box;
+	font-family:georgia;
+	color:#fff;
+	font-size:1.3em;
+	width:70%;
+	display:inline-block;
+	float: right;
+	margin-right:30px;
+	margin-top:15px;
+	padding-bottom: 1px;
+	text-align:justify;
+}

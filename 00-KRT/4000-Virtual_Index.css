@@ -1,0 +1,29 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+div#Core {
+	box-sizing:border-box;
+	border:5px solid #fff;
+	max-width:95%;
+	/*background:#fff;*/
+	/*background:rgba(27,27,112,.5);*/
+	margin:auto;
+	margin-top:110px;
+	border-radius:25px;
+}
+
+div#dText {
+	box-sizing:border-box;
+	max-width:95%;
+	/*background:#fff;*/
+	/*background:rgba(27,27,112,.5);*/
+	margin:auto;
+}
+
+h1{
+	color:#fff;
+	text-align:center;
+	font-size:8em;
+	font-family:verdana;
+}

@@ -1,0 +1,184 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+
+div#dvCore {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	margin-bottom:130px;
+	height:auto;
+	overflow:hidden;
+}
+
+.myTittle{
+	color:#fff004;
+	margin-top:5px;
+	text-align:center;
+	font-family:verdana;
+}
+
+div#dvClaMenu {
+	box-sizing:border-box;
+	/*background:rgba(21,133,221,.7);*/
+	background:rgba(27,27,112,.7);
+	width:95%;
+	margin-left:30px;
+	display:inline-block;
+	border-radius:15px;
+	border:5px solid #fc8a06;
+	text-align:center;
+}
+
+div#dvCamp,
+div#dvClasi{
+	width:45%;
+	margin-top:10px;
+	margin-bottom:15px;
+	margin-left:5px;
+	display:inline-block;
+}
+label {
+	color:#fff004;
+	font-family:georgia;
+	font-size:20px;
+}
+select{
+	width:230px;
+	font-family:georgia;
+	font-size:15px;
+}
+div#a1{
+	box-sizing:border-box;
+	margin-top:1%;
+	margin-left:2.5%;
+	width:95%;
+	border:5px #fff solid;
+	border-radius:15px;
+	
+}
+div#dvWinner{
+	box-sizing:border-box;
+	margin-top:10px;
+	margin-left:30px;
+	width:25%;
+	float:left;
+	
+}
+div#dvContShowClasi {
+	
+	box-sizing:border-box;
+	display:inline-block;
+	/*background:rgba(21,133,221,.7);*/
+	/*background:rgba(27,27,112,.3);*/
+	width:66%;
+	margin-left:10px;
+	border-radius:15px;
+	margin-top:30px;
+	
+}
+
+h2#tWinner{
+	color:#fff004;
+	margin:auto;
+	text-align:center;
+}
+
+.Pic-Body{
+	box-sizing:border-box;
+	height:350px;
+	padding:10px;
+	width:100%;
+	
+}
+
+table#tblClasi{
+	margin:auto;
+	font-family:georgia;
+	font-size:20px;
+	color:#fff;
+	
+}
+.Pic-Casco{
+	width:30px;
+	height:30px;
+}
+table#tblClasi tr td:nth-child(1) {
+  width:40px;
+  height:30px;
+  text-align:center;
+  background:#fc8a06;
+  padding:5px;
+  border-top-left-radius:40%;
+  border-bottom-right-radius:40%;
+   border-top-right-radius:10%;
+  border-bottom-left-radius:10%;
+}
+table#tblClasi tr th:nth-child(1),
+table#tblClasi tr th:nth-child(2),
+table#tblClasi tr th:nth-child(3),
+table#tblClasi tr th:nth-child(4),
+table#tblClasi tr th:nth-child(5),
+table#tblClasi tr th:nth-child(6) {
+  width:40px;
+  height:30px;
+  text-align:center;
+  background:rgba(21,133,221,.5);
+  padding:5px;
+  border-radius:10px;
+
+}
+table#tblClasi tr td:nth-child(2) {
+  width:40px;
+  height:30px;
+  text-align:center;
+  background:rgba(27,27,112,.5);
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+table#tblClasi tr td:nth-child(3) {
+  width:30px;
+  height:30px;
+  text-align:right;
+  padding:5px;
+  background:rgba(27,27,112,.5);
+}
+table#tblClasi tr td:nth-child(4) {
+  width:100px;
+  height:30px;
+  text-align:center;
+  padding:5px;
+  background:rgba(27,27,112,.5);
+}
+table#tblClasi tr td:nth-child(4) {
+  width:300px;
+  height:30px;
+  text-align:left;
+  padding:5px;
+  background:rgba(27,27,112,.5);
+   border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+caption {
+	padding:5px;
+	background:rgba(21,133,221,.7);
+	color:#fff004;
+	font-weight:bold;
+	border-radius:15px;
+}
+
+table#tblClasi tr td:nth-child(6),
+table#tblClasi tr td:nth-child(7),
+table#tblClasi tr td:nth-child(8),
+table#tblClasi tr td:nth-child(5){
+  width:50px;
+  height:30px;
+  text-align:center;
+  background:rgba(27,27,112,.5);
+  border-radius:10px;
+}
+

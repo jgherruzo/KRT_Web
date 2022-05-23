@@ -1,0 +1,62 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+table#tArticulos a {
+	text-decoration:none;
+	color:#fff;
+}
+table#tArticulos a:hover {
+	color: #fff004;
+	transition: all .5s ease;
+}
+
+div#dvCore {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	margin-bottom:130px;
+	height:auto;
+	overflow:hidden;
+}
+
+div#dImg{
+	box-sizing:border-box;
+	display:inline-block;
+	width:50%;
+	margin:1%;
+}
+div#dvNorma {
+	box-sizing:border-box;
+	border:5px #fff solid;
+	max-width:95%;
+	/*background:#fff;*/
+	margin-left:2.5%;
+	border-radius:15px;
+}
+
+h1#hTittle{
+	text-align:center;
+	color:#fff004;
+	font-size:3em;
+}
+div#dTable {
+	box-sizing:border-box;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:1%;
+}
+
+table#tArticulos{
+	color:#fff;
+	font-family:georgia;
+	font-size:2em;	
+}
+
+
+table tr td:nth-child(1) {
+  border-left:2px #fff004 solid;
+  border-bottom:2px #fff004 solid;
+}

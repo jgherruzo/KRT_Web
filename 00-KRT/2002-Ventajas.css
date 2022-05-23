@@ -1,0 +1,66 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	Height:580px;
+}
+div#Texto {
+	
+	box-sizing:border-box;
+	/*background:rgba(21,133,221,.7);*/
+	background:rgba(27,27,112,.3);
+	width:80%;
+	height:580px;
+	margin-left:10%;
+	display:inline-block;
+	border-radius:15px;
+	border:2px solid #fff;
+	text-align:center;
+	
+}
+h1#NewsTittle{
+	color:#1585dd;
+	font-family:verdana;
+}
+
+h1#SociosTittle{
+	color:#fc8a06;
+	font-family:verdana;
+}
+
+.Tin{
+	
+	margin-top:15px;
+	color:#fff004;
+	font-family:georgia;
+}
+
+.Tout{
+	
+	margin-top:15px;
+	color:#fff004;
+	font-family:georgia;
+}
+.myDocs{
+	width:400px;
+	margin-top:15px;
+	margin-left:35px;
+	color:#fff;
+	list-style-type: circle;
+	font-family:georgia;
+	
+}
+
+.myDocs li{
+	font-size:20px;
+	text-align:left;
+	padding-bottom:1.5ex;
+	
+}

@@ -1,0 +1,96 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	margin-bottom:130px;
+}
+
+div#Enclosure {
+	box-sizing:border-box;
+	display:inline-block;
+	/*border:2px solid #fff004;*/
+	max-width:20%;
+	padding:1%;
+}
+
+div#Participante {
+	box-sizing:border-box;
+	border:2px solid #fff;
+	border-radius: 5px 5px 5px 5px;
+	padding:2%;
+}
+div#PartTop {
+	box-sizing:border-box;
+	padding:2%;
+	border-bottom:2px solid #fff004;
+}
+h2#PartTopName {
+	color:#fff;
+	font-family:georgia;
+	text-align:center;
+}
+
+img#Pic-Body{
+	width:100%;
+	Height:275px;
+}
+
+img#Cat,
+img#Pic-Team{
+	width:50%;
+	height:80px;
+}
+
+table#tEstadistica {
+	color:#fff;
+	font-family:georgia;
+}
+table tr td {
+  padding:0;  
+}
+table tr th:nth-child(1) {
+  width:150px;
+  color:#fff004;
+}
+
+
+table tr th:nth-child(2),
+table tr th:nth-child(3) {
+  width:60px;
+  text-align:center;
+  color:#fff004;
+}
+
+table tr td:nth-child(1),
+table tr td:nth-child(3) {
+  width:60px;
+  text-align:left;
+}
+
+table tr td:nth-child(3) {
+  padding:2px;
+}
+table tr td:nth-child(2),
+table tr td:nth-child(4) {
+  width:100px;
+  text-align:center;
+}
+
+table tr td:nth-child(2){
+	border-right:1px solid #fff004;
+}
+
+table thead tr th:nth-child(1) {
+  border-bottom:1px solid #fff004;
+  color:#fff;
+}
+table tbody tr th:nth-child(1) {
+  border-right:1px solid #fff004;
+}

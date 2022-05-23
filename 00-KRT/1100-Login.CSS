@@ -1,0 +1,144 @@
+/*Este archivo da formato a la página de login*/
+
+/*==========Version 0.2============*/
+
+.Core {
+	position:relative;
+	background:rgba(21,133,221,.7);
+	width:100%;
+	max-width:500px;
+	margin:100px auto;
+	color:#fff;
+	border-radius:5px;
+	padding:40px;
+}
+
+.Core .Cuenta {
+	position:absolute;
+	top:7px;
+	right:7px;
+	width:100px;
+	height:30px;
+	font-size:12px;
+	line-height:25px;
+	text-align:center;
+	border-top:2px solid #fc8a06;
+	border-bottom:2px solid #fc8a06;
+	transition: all .5s ease;
+	cursor:pointer;
+}
+.Core .Cuenta span{
+	letter-spacing:1px;
+}
+.Core .Cuenta:hover{
+	border-top:2px solid #fff004;
+	border-bottom:2px solid #fff004;
+}
+.myForm input[type="text"],
+.myForm input[type="password"],
+.myForm input[type="email"] {
+	outline:none;
+	background:rgba(255,255,255,.1);
+	display:block;
+	width:100%;
+	padding:10px 15px;
+	color:#fff;
+	border:none;
+	border-radius:2px;
+	border-bottom:4px solid #fff;
+	font-family:georgia;
+	font-size:14px;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	transition: all .5s ease;
+}
+
+.myForm input[type="text"]:-moz-placeholder,
+.myForm input[type="password"]:-moz-placeholder,
+.myForm input[type="email"]:-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-moz-placeholder,
+.myForm input[type="password"]::-moz-placeholder,
+.myForm input[type="email"]::-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-webkit-input-placeholder,
+.myForm input[type="password"]::-webkit-input-placeholder,
+.myForm input[type="email"]::-webkit-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:-ms-input-placeholder,
+.myForm input[type="password"]:-ms-input-placeholder,
+.myForm input[type="email"]:-ms-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:focus,
+.myForm input[type="password"]:focus,
+.myForm input[type="email"]:focus {
+
+	border-bottom:4px solid #fc8a06;
+	transition: all .5s ease;
+}
+
+
+h2 {
+	margin:0 0 28px 0;
+	font-size:20px;
+	font-weight:800;
+	line-height:1;
+}
+
+.myForm input[type="submit"] {
+	background:#fff;
+	color:#1b1b70;
+	border:none;
+	width:100%;
+	padding:10px 0;
+	font-weight:800;
+	font-family:georgia;
+	font-size:16px;
+	letter-spacing:1px;
+	cursor:pointer;	
+}
+.myForm input[type="submit"]:hover {
+	background:rgba(27,27,112,.7);
+	color:#fff;
+	transition: all .5s ease;
+}
+
+.reset-password{
+	background:#fc8a06;
+	width:100%;
+	margin-top:20px;
+	padding: 15px 0;
+	text-align:center;
+	display:block;
+}
+
+.reset-password a{
+	color:#fff;
+	text-decoration:none;
+	font-size:16px;
+
+}
+
+.myLogin {
+	display:none;	
+}
+
+.myLogin:nth-child(2) {
+	display:block;	
+}
+
+.reset-password:nth-child(0) {
+	display:none;	
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="generator" content="Notepad++" />
+		<meta name="author" content="José García Herruzo" />
+		<meta name="keywords" content="KRT, Club, amateur, Karting" />
+		<meta name="description" content="Rincón para amantes de la velocidad" />
+		<meta name="version" content="Versión 0" />
+		
+		<script type="text/javascript" src="001-KRT_General.js"></script>
+		
+		<link href="2003-Patrocinador.css" rel="stylesheet" type="text/css" />
+		<link href="201-Menu.CSS" rel="stylesheet" type="text/css" />
+		<link href="200-Partner.CSS" rel="stylesheet" type="text/css" />
+		<link href="202-Header.css" rel="stylesheet" type="text/css" />
+		<link href="203-Body.css" rel="stylesheet" type="text/css" />
+		
+		<title>KRT | Patrocinador</title>
+	</head>
+	<body>
+		<script>BackGroundPicture()</script>
+		<div id="myHeader">
+			<div id="Login">
+			<?php
+			
+				session_start();
+				
+				if(isset($_SESSION['usr'])){
+					echo '<a href="1150-Profile.php">Perfil de piloto</a>';
+				}
+				else{
+					echo '<a href="1100-Login.php">Iniciar Sesión</a>';
+				}
+			
+			?>
+			</div>
+		</div>
+		<Div id="Menu">
+			<script>BuildMenu()</script>
+		</Div>
+		
+		<div id="Core">
+		<h1 id="SociosTittle">Opciones de patrocinio</h1>
+			<div id="Texto">
+				
+				<table class="mySocios">
+					<tr>
+						<th>Parámetro</th>
+						<th>Principal</th>
+						<th>Premium</th>
+						<th>Estandar</th>
+						<th>Básico</th>
+						<th>Colaborador</th>
+					</tr>
+					<tr>
+						<th>Prueba de cop</th>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="400-Check.png"></td>
+					</tr>
+					<tr>
+						<th>Prueba de cop</th>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="400-Check.png"></td>
+						<td><img class="tic" src="401-Check-.png"></td>
+						<td><img class="tic" src="401-Check-.png"></td>
+						<td><img class="tic" src="401-Check-.png"></td>
+					</tr>
+				</table>	
+			</div>
+		</div>
+		
+		<div id="Partner" >
+			<h3 id="myPartner"></h3>
+			<script>BuildPartner()</script>
+		</div>
+	</body>
+</html>

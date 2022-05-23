@@ -1,0 +1,96 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color: #1b1b70;
+}
+a:link { 
+text-decoration:none; 
+} 
+img {
+	max-width:100%;
+}
+div#Login {
+	box-sizing:border-box;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	height:25px;
+	text-align:right;
+	color: #fff004;
+	/*border-bottom: 5px solid #fff;*/
+}
+
+.ca-menu{
+    padding: 0;
+    /*margin: 10px auto;*/
+    max-width:100%;
+}
+.ca-menu li{
+	box-sizing:border-box;
+	width: 25%;
+	height: 90px;
+	overflow: hidden;
+	position:relative;
+	float:left;
+	display: block;
+	background: #1b1b70;
+	/*box-shadow: 3px 3px 3px rgba(0,0,0,2);*/
+	border: 5px solid #fff;
+	transition: all 300ms linear;
+	/*margin-left:30px;
+	margin-top:5px;
+	margin-bottom:10px;*/
+}
+.ca-menu li:last-child{
+    margin-bottom: 0px;
+}
+.ca-menu li a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position:relative;
+}
+
+.ca-main{
+	margin: 10px auto;
+    transition: all 300ms linear;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+}
+.ca-sub{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+    transition: all 300ms linear; 
+}
+.ca-menu li:hover{
+    border-color: #fc8a06;
+    background: #ffffff;
+	border: 0px;
+}
+.ca-menu li:hover .ca-main{
+    color: #1b1b70;
+    font-size: 14px;
+}
+.ca-menu li:hover .ca-sub{
+    color: #1b1b70;
+    font-size: 30px;
+}
+
+}
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+}
+div#Texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:2.5em;
+	color:white;
+	text-align:center;
+}

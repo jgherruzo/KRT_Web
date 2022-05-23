@@ -1,0 +1,42 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+div#Core {
+	box-sizing:border-box;
+	border:5px solid #fff;
+	max-width:95%;
+	/*background:#fff;*/
+	/*background:rgba(27,27,112,.5);*/
+	margin:auto;
+	margin-top:110px;
+	border-radius:25px;
+}
+h1{
+	color:#fff004;
+	text-align:center;
+	font-size:4em;
+	font-family:verdana;
+}
+div#Icon {
+	margin-left:10px;
+	margin-top:10px;
+	width:25%;
+	height:400px;
+	display:inline-block;
+	
+	
+}
+div#Texto {
+	font-family:georgia;
+	color:#fff;
+	font-size:1.5em;
+	width:70%;
+	height:400px;
+	display:inline-block;
+	float: right;
+	margin-right:30px;
+	margin-top:15px;
+	text-align:justify;
+	
+}

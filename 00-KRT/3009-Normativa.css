@@ -1,0 +1,117 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 0============*/
+
+
+div#dvCore {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	margin-bottom:130px;
+}
+
+div#dvNorma {
+	box-sizing:border-box;
+	border:5px #fff solid;
+	max-width:95%;
+	/*background:#fff;*/
+	margin-left:2.5%;
+	border-radius:15px;
+}
+
+h1{
+	color:#fff004;
+	font-size:3em;
+	font-family:verdana;
+	text-align:center;
+}
+
+.hNorma{
+	color:#fff004;
+	font-size:1.5em;
+	font-family:verdana;
+	text-align:left;
+	padding:15px;
+}
+
+p{
+	color:#fff;
+	text-align:justify;
+	/*font-size:20px;*/
+}
+
+div#dvIndex {
+	display:inline-block;
+	box-sizing:border-box;
+	border:2px #fc8a06 solid;
+	background:rgba(27,27,112,.7);
+	width:30%;
+	/*background:#fff;*/
+	margin-left:35%;
+	border-radius:15px;
+	/*font-family:georgia;*/
+	margin-top:20px;
+	margin-bottom:20px;
+}
+div#dvt1 {
+	display:inline-block;
+	box-sizing:border-box;
+	max-width:95%;
+	margin-left:2.5%;
+	/*background:#fff;*/
+	padding:15px;
+
+}
+h2#tittleIndex{
+	color:#fc8a06;
+	font-size:2em;
+	font-family:verdana;
+	text-align:center;	
+	margin-top:10px;
+}
+
+.myDocs{
+	width:75%;
+	margin-top:15px;
+	margin-left:35px;
+	color:#fff;
+	list-style-type: circle;
+	font-family:georgia;
+	padding:15px;
+}
+
+.myDocs li{
+	border-bottom:1px solid #fc8a06;
+	font-size:20px;
+	margin-top:5px;
+	text-align:left;
+	
+}
+
+.myDocs a{
+	text-decoration:none;
+	color: #fff;
+	font-size:20px;
+	
+}
+.tblPuntos{
+	margin:5px auto;
+	border:2px solid #fff;
+}
+
+.tblPuntos tr td:nth-child(1),
+.tblPuntos tr td:nth-child(2) {
+	color: #fff;
+	font-size:20px;
+	font-family:georgia;
+	text-align:center;
+}
+.tblPuntos tr th:nth-child(1),
+.tblPuntos tr th:nth-child(2) {
+	color: #fff004;
+	font-size:20px;
+	font-family:verdana;
+	text-align:center;
+}

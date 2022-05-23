@@ -1,0 +1,95 @@
+/*Este archivo da formato a la página de login*/
+
+/*==========Version 0.2============*/
+
+.Core {
+	position:relative;
+	background:rgba(21,133,221,.7);
+	width:100%;
+	max-width:500px;
+	margin:100px auto;
+	color:#fff;
+	border-radius:5px;
+	padding:40px;
+}
+
+.myForm input[type="text"],
+.myForm input[type="password"],
+.myForm input[type="email"] {
+	outline:none;
+	background:rgba(255,255,255,.1);
+	display:block;
+	width:100%;
+	padding:10px 15px;
+	color:#fff;
+	border:none;
+	border-radius:2px;
+	border-bottom:4px solid #fff;
+	font-family:georgia;
+	font-size:14px;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	transition: all .5s ease;
+}
+
+.myForm input[type="text"]:-moz-placeholder,
+.myForm input[type="password"]:-moz-placeholder,
+.myForm input[type="email"]:-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-moz-placeholder,
+.myForm input[type="password"]::-moz-placeholder,
+.myForm input[type="email"]::-moz-placeholder{
+
+	color:#fff;
+	opacity:1;
+}
+.myForm input[type="text"]::-webkit-input-placeholder,
+.myForm input[type="password"]::-webkit-input-placeholder,
+.myForm input[type="email"]::-webkit-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:-ms-input-placeholder,
+.myForm input[type="password"]:-ms-input-placeholder,
+.myForm input[type="email"]:-ms-input-placeholder{
+
+	color:#fff;
+}
+
+.myForm input[type="text"]:focus,
+.myForm input[type="password"]:focus,
+.myForm input[type="email"]:focus {
+
+	border-bottom:4px solid #fc8a06;
+	transition: all .5s ease;
+}
+
+
+h2 {
+	margin:0 0 28px 0;
+	font-size:20px;
+	font-weight:800;
+	line-height:1;
+}
+
+.myForm input[type="submit"] {
+	background:#fff;
+	color:#1b1b70;
+	border:none;
+	width:100%;
+	padding:10px 0;
+	font-weight:800;
+	font-family:georgia;
+	font-size:16px;
+	letter-spacing:1px;
+	cursor:pointer;	
+}
+.myForm input[type="submit"]:hover {
+	background:rgba(27,27,112,.7);
+	color:#fff;
+	transition: all .5s ease;
+}

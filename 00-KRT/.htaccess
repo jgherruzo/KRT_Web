@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /00-KRT/
+RewriteRule ^/$ index.php [L]
+RewriteRule ^activation/([a-zA-Z0-9_-]+)$ 508-Activation.php?code=$1
+RewriteRule ^activation/([a-zA-Z0-9_-]+)/$ 508-Activation.php?code=$1
+RewriteRule ^Pass_Update/([a-zA-Z0-9_-]+)$ 1107-AskforPassModification.php?code=$1
+RewriteRule ^Pass_Update/([a-zA-Z0-9_-]+)/$ 1107-AskforPassModification.php?code=$1
+RemoveHandler .phtml .php3 .php .pl .py .jsp .asp .htm .shtml .sh .cgi .dat
+RemoveType .phtml .php3 .php .pl .py .jsp .asp .htm .shtml .sh .cgi .dat

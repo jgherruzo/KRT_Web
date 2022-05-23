@@ -1,0 +1,64 @@
+/*Este archivo da formato a la página principal*/
+
+/*==========Version 6============*/
+
+div#Core {
+	box-sizing:border-box;
+	border:none;
+	max-width:100%;
+	/*background:#fff;*/
+	margin-top:110px;
+	Height:580px;
+}
+div#Texto {
+	
+	font-size:2.5em;
+	color:white;
+	text-align:center;
+	/*background:#fff004;*/
+	width:66%;
+	float:right;
+	margin-right:30px;
+	/*height:580px;*/
+	overflow:auto;
+	margin-top:200px;
+
+	
+}
+div#News {
+	box-sizing:border-box;
+	/*background:rgba(21,133,221,.7);*/
+	background:rgba(27,27,112,.7);
+	width:27%;
+	height:580px;
+	margin-left:30px;
+	display:inline-block;
+	border-radius:15px;
+	border:2px solid #fc8a06;
+	text-align:center;
+}
+
+h1#NewsTittle{
+	color:#fff;
+	font-size:3em;
+}
+
+h2#hList{
+	color:#fff004;
+	margin-top:10px;
+	font-size:2em;
+}
+
+ul#uList{
+	list-style-type: none;
+	color:#fff;
+	font-size:1.4em;
+}
+
+ul#uList a{
+	text-decoration:none;
+	color:#fff;
+}
+ul#uList a:hover{
+	color:red;
+}

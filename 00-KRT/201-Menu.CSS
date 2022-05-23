@@ -1,0 +1,120 @@
+/*Este archivo da formato al div de Menu*/
+
+/*==========Version 6============*/
+
+.ca-menu{
+	box-sizing:border-box;
+	margin:0 auto;
+	max-width:95%;
+}
+.ca-menu li{
+	box-sizing:border-box;
+	width: 25%;
+	height: 90px;
+	
+	position:relative;
+	float:left;
+	display: block;
+	
+	background: #1585dd;
+	/*box-shadow: 3px 3px 3px rgba(0,0,0,2);*/
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	transition: all 300ms linear;
+	border-bottom:10px solid #fff;
+}
+.ca-menu li a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    position:relative;
+}
+.ca-main{
+	margin: 10px auto;
+    transition: all 300ms linear;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+}
+.ca-sub{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+    transition: all 300ms linear; 
+}
+.ca-menu li:hover{
+	background: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	transition: all 300ms linear;
+	border-bottom:10px solid #1585dd;
+}
+.ca-menu li:hover .ca-main{
+    color: #1b1b70;
+	font-size:14px;
+}
+.ca-menu li:hover .ca-sub{
+    color: #1b1b70;
+	font-size:30px;
+}
+/* MENU SECUNDARIO*/
+.ca-menu li ul {
+	display:none;
+	position:relative;
+	top:0px;
+	width: 275px;
+	z-index:100;
+}		
+
+.ca-menu li:hover .Sub-menu {
+	display:block;
+}
+.su-main {
+	color:#1b1b70;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	text-align:left;
+}
+.submenu-Index{
+	position:relative;
+	top: 40%;
+	left:5%;
+}
+.ca-menu li .Sub-menu li {
+	box-sizing:border-box;
+	height: 45px;
+	width: 100%;
+	
+	position:relative;
+	float:none;
+	
+	background: #fff;
+	border: 0px solid #000;
+	border-left: 30px solid #1585dd;
+	
+	transition: all 300ms linear;	
+}
+
+.ca-menu li .Sub-menu li:hover {
+	
+	background: #1b1b70;
+	border: 0px solid #000;
+	border-left: 15px solid #1585dd;
+	border-right: 15px solid #fff;
+	transition: all 300ms linear;	
+}
+.ca-menu li .Sub-menu li:hover .su-main {
+	
+	position:relative;
+	color:#fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	text-align:left;
+	transition: all 300ms linear;
+}
+.ca-menu li .Sub-menu li:hover .submenu-Index{
+	position:relative;
+	top: 40%;
+	left:15%;
+	transition: all 300ms linear;
+}

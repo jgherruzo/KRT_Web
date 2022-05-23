@@ -1,0 +1,26 @@
+/*Este archivo da formato al div de patrocinadores*/
+
+/*==========Version 0============*/
+
+div#Partner {
+	box-sizing:border-box;
+	/*Top:87%;*/
+	Position: fixed;
+	bottom:0%;
+	background: #fff;
+	width: 100%;
+	border-top: 5px solid #fc8a06;
+	border-left: 5px solid #fc8a06;
+	border-right: 5px solid #fc8a06;
+	height:120px;/*120px*/
+}
+div#Partner h3{
+	color:#1b1b70;
+	font-size:15px;/*15px*/
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Part{
+	display:inline-block;
+	width:90px;/*90px*/
+	height:90px;
+}
